@@ -81,6 +81,10 @@ glob(path.join(contents, "**/*.js"), {
         return fileInfo;
     });
 
+    // 결과물 폴더가 없을 경우 생성
+    !fs.existsSync("output") && fs.mkdirSync("output");
+
+    // 엑셀 복사 & 붙여넣기용 파일 생성
     fs.writeFile("output/trcodes.excel.txt", excelFormat, (err) => {
         if (err) {
             console.log(err);
@@ -90,6 +94,7 @@ glob(path.join(contents, "**/*.js"), {
         }
     });
 
+    // Json 오브젝트 형식의 파일 생성
     fs.writeFile("output/trcodes.json", JSON.stringify(fileInfoList, null, "    "), (err) => {
         if (err) {
             console.log(err);
