@@ -1,4 +1,4 @@
-# bizMOB 파일별 Trcode Parser
+# bizMOB Trcode Parser
 
 ## 설치법
 
