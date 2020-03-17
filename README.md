@@ -43,4 +43,4 @@
     1. __trcodes.excel.txt__: 엑셀 파일에 복사&붙여넣기를 할 수 있도록 엑셀 Format에 맞게 출력한 text 파일
     2. __trcodes.json__: 각 파일별 타이틀과 trcode를 추출한 Json 파일
 
-4. `/output/trcodes.excel.txt`파일의 text를 복사해서 엑셀에 붙여넣은 후 열의 높이와 열을 맞춤
+4. `/output/trcodes.excel.txt`파일의 text를 복사해서 엑셀에 붙여넣은 후 열의 높이와 너비을 맞춤
