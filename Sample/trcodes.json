@@ -1,0 +1,496 @@
+[
+    {
+        "page": "ATV1000",
+        "title": "활동 메인",
+        "trcodes": []
+    },
+    {
+        "page": "ATV2100",
+        "title": "일/월간 활동목록 조회",
+        "trcodes": [
+            "UP70000",
+            "UP70001"
+        ]
+    },
+    {
+        "page": "ATV2210",
+        "title": "활동내역 상세",
+        "trcodes": [
+            "UP70002",
+            "UP70003",
+            "UP70008",
+            "UP70010",
+            "UP70011"
+        ]
+    },
+    {
+        "page": "ATV2310",
+        "title": "활동등록 - 날짜선택",
+        "trcodes": []
+    },
+    {
+        "page": "ATV2320",
+        "title": "활동등록 - 고객선택",
+        "trcodes": [
+            "UP70005"
+        ]
+    },
+    {
+        "page": "ATV2330",
+        "title": "활동등록 - 등록하기",
+        "trcodes": [
+            "UP70009"
+        ]
+    },
+    {
+        "page": "ATV2400",
+        "title": "관심상품 선택",
+        "trcodes": [
+            "UP70006"
+        ]
+    },
+    {
+        "page": "ATV3000",
+        "title": "관심제품 별 활동목록",
+        "trcodes": [
+            "UP70004"
+        ]
+    },
+    {
+        "page": "COM0000",
+        "title": "Native Test용 페이지",
+        "trcodes": [
+            "UP62002"
+        ]
+    },
+    {
+        "page": "COM1000",
+        "title": "퀵 메뉴",
+        "trcodes": []
+    },
+    {
+        "page": "COM2000",
+        "title": "날짜선택 팝업",
+        "trcodes": []
+    },
+    {
+        "page": "COM3000",
+        "title": "공유하기 팝업",
+        "trcodes": []
+    },
+    {
+        "page": "COM4000",
+        "title": "",
+        "trcodes": []
+    },
+    {
+        "page": "COS1000",
+        "title": "고객 메인화면",
+        "trcodes": [
+            "UP60000"
+        ]
+    },
+    {
+        "page": "COS2000",
+        "title": "고객 목록",
+        "trcodes": [
+            "UP60001"
+        ]
+    },
+    {
+        "page": "COS2100",
+        "title": "고객정보",
+        "trcodes": [
+            "UP60002"
+        ]
+    },
+    {
+        "page": "COS2111",
+        "title": "고객정보 상세",
+        "trcodes": [
+            "UP60003",
+            "UP60004",
+            "UP62002"
+        ]
+    },
+    {
+        "page": "COS2120",
+        "title": "주문결제 내역 조회",
+        "trcodes": [
+            "UP80001"
+        ]
+    },
+    {
+        "page": "COS2121",
+        "title": "재구매 예상 상품",
+        "trcodes": [
+            "UP61000"
+        ]
+    },
+    {
+        "page": "COS2130",
+        "title": "고객 활동내역",
+        "trcodes": [
+            "UP70007"
+        ]
+    },
+    {
+        "page": "COS3000",
+        "title": "신규 고객 등록",
+        "trcodes": []
+    },
+    {
+        "page": "COS3100",
+        "title": "온라인고객 약관동의",
+        "trcodes": []
+    },
+    {
+        "page": "COS3110",
+        "title": "온라인고객 약관상세",
+        "trcodes": [
+            "UP62003"
+        ]
+    },
+    {
+        "page": "COS3200",
+        "title": "온라인고객 휴대폰인증",
+        "trcodes": [
+            "UP62002",
+            "UP62004",
+            "UP62005"
+        ]
+    },
+    {
+        "page": "COS3310",
+        "title": "고객등록 온/오프라인 - 1단계",
+        "trcodes": []
+    },
+    {
+        "page": "COS3320",
+        "title": "고객등록 온라인 - 2단계",
+        "trcodes": [
+            "UP62000"
+        ]
+    },
+    {
+        "page": "COS3330",
+        "title": "고객등록 오프라인 - 2단계",
+        "trcodes": []
+    },
+    {
+        "page": "COS3340",
+        "title": "고객등록 온라인 - 3단계",
+        "trcodes": []
+    },
+    {
+        "page": "COS3350",
+        "title": "고객등록 온/오프라인 - 추가정보 입력",
+        "trcodes": [
+            "UP62001"
+        ]
+    },
+    {
+        "page": "HOM1000",
+        "title": "Home",
+        "trcodes": [
+            "UP10002"
+        ]
+    },
+    {
+        "page": "HOM2000",
+        "title": "출근/사원 바코드",
+        "trcodes": [
+            "UP10000",
+            "UP10001"
+        ]
+    },
+    {
+        "page": "HOM3000",
+        "title": "알림리스트",
+        "trcodes": [
+            "UP20000"
+        ]
+    },
+    {
+        "page": "HOM3100",
+        "title": "알림상세",
+        "trcodes": [
+            "UP20001"
+        ]
+    },
+    {
+        "page": "HOM4000",
+        "title": "상품목록",
+        "trcodes": [
+            "UP30000"
+        ]
+    },
+    {
+        "page": "HOM4100",
+        "title": "상품 상세",
+        "trcodes": []
+    },
+    {
+        "page": "HOM5100",
+        "title": "미수금 내역",
+        "trcodes": [
+            "UP40000",
+            "UP41000"
+        ]
+    },
+    {
+        "page": "HOM5110",
+        "title": "고객별 미수내역",
+        "trcodes": [
+            "UP40001",
+            "UP40002"
+        ]
+    },
+    {
+        "page": "HOM5111",
+        "title": "미수내역 상세",
+        "trcodes": []
+    },
+    {
+        "page": "HOM5210",
+        "title": "고객 수금내역",
+        "trcodes": [
+            "UP41001"
+        ]
+    },
+    {
+        "page": "HOM5211",
+        "title": "수금내역 상세",
+        "trcodes": [
+            "UP41002"
+        ]
+    },
+    {
+        "page": "HOM5310",
+        "title": "미수등록 - 고객선택",
+        "trcodes": [
+            "UP70005"
+        ]
+    },
+    {
+        "page": "HOM5320",
+        "title": "미수등록 - 등록하기",
+        "trcodes": [
+            "UP40003"
+        ]
+    },
+    {
+        "page": "LOG1000",
+        "title": "로그인",
+        "trcodes": [
+            "UP00001"
+        ]
+    },
+    {
+        "page": "LOG1100",
+        "title": "아이디 찾기",
+        "trcodes": [
+            "UP00002"
+        ]
+    },
+    {
+        "page": "LOG1200",
+        "title": "비밀번호 재설정",
+        "trcodes": [
+            "UP00003"
+        ]
+    },
+    {
+        "page": "LOG1210",
+        "title": "신규 비밀번호 설정",
+        "trcodes": [
+            "UP00004"
+        ]
+    },
+    {
+        "page": "MEN1000",
+        "title": "내 정보",
+        "trcodes": [
+            "UP90000"
+        ]
+    },
+    {
+        "page": "MEN1100",
+        "title": "내정보 관리",
+        "trcodes": [
+            "UP90000",
+            "UP90001"
+        ]
+    },
+    {
+        "page": "MEN2100",
+        "title": "포인트 내역 조회",
+        "trcodes": [
+            "UP90002"
+        ]
+    },
+    {
+        "page": "MEN3000",
+        "title": "직계관리",
+        "trcodes": [
+            "UP90003"
+        ]
+    },
+    {
+        "page": "MEN3100",
+        "title": "직계 상세",
+        "trcodes": [
+            "UP90004"
+        ]
+    },
+    {
+        "page": "MEN4000",
+        "title": "공지사항 목록",
+        "trcodes": [
+            "UP90005"
+        ]
+    },
+    {
+        "page": "MEN4100",
+        "title": "공지사랑 상세",
+        "trcodes": [
+            "UP90006"
+        ]
+    },
+    {
+        "page": "MEN5000",
+        "title": "자료실 목록",
+        "trcodes": [
+            "UP90007"
+        ]
+    },
+    {
+        "page": "MEN5100",
+        "title": "자료실 상세",
+        "trcodes": [
+            "UP90007",
+            "UP90008"
+        ]
+    },
+    {
+        "page": "MEN6000",
+        "title": "알림설정",
+        "trcodes": [
+            "UP90009",
+            "UP90011"
+        ]
+    },
+    {
+        "page": "ORD1000",
+        "title": "주문작성",
+        "trcodes": []
+    },
+    {
+        "page": "ORD2000",
+        "title": "주문작성 고객선택",
+        "trcodes": [
+            "UP70005"
+        ]
+    },
+    {
+        "page": "ORD3000",
+        "title": "주문결제",
+        "trcodes": [
+            "UP80000",
+            "UP80007"
+        ]
+    },
+    {
+        "page": "ORD3100",
+        "title": "마일리지 사용",
+        "trcodes": []
+    },
+    {
+        "page": "ORD3200",
+        "title": "카드금액 입력",
+        "trcodes": []
+    },
+    {
+        "page": "ORD3300",
+        "title": "결제확인",
+        "trcodes": []
+    },
+    {
+        "page": "ORD4000",
+        "title": "주문결제 상세",
+        "trcodes": [
+            "UP80002",
+            "UP80006"
+        ]
+    },
+    {
+        "page": "ORD4100",
+        "title": "거래 명세서",
+        "trcodes": [
+            "UP80004"
+        ]
+    },
+    {
+        "page": "ORD4110",
+        "title": "거래 명세서 약관안내",
+        "trcodes": []
+    },
+    {
+        "page": "ORD5000",
+        "title": "무이자 할부 정보 리스트 조회",
+        "trcodes": [
+            "UP80005"
+        ]
+    },
+    {
+        "page": "PFM1000",
+        "title": "실적 메인",
+        "trcodes": []
+    },
+    {
+        "page": "PFM2100",
+        "title": "나의 영업현황",
+        "trcodes": [
+            "UP50000",
+            "UP51000"
+        ]
+    },
+    {
+        "page": "PFM2110",
+        "title": "일자별 상세",
+        "trcodes": [
+            "UP50001",
+            "UP50002"
+        ]
+    },
+    {
+        "page": "PFM3000",
+        "title": "그룹매출 현황",
+        "trcodes": [
+            "UP52000"
+        ]
+    },
+    {
+        "page": "PFM4100",
+        "title": "장려금 현황",
+        "trcodes": [
+            "UP53000"
+        ]
+    },
+    {
+        "page": "PFM4200",
+        "title": "예상 지급 장려금 조회",
+        "trcodes": [
+            "UP53001",
+            "UP53002",
+            "UP90012"
+        ]
+    },
+    {
+        "page": "PFM5100",
+        "title": "출근 관리",
+        "trcodes": [
+            "UP54001"
+        ]
+    }
+]
