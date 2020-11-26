@@ -7,6 +7,7 @@ const dirname = config.dirname;
 const prefix = config.prefix;
 const ignoreFolderList = config.ignoreFolderList;
 const contents = path.join(`../${dirname}`, "WebContent/contents/");
+const parserType = config.parserType;
 
 glob(path.join(contents, "**/*.js"), {
     dot: true,
@@ -37,8 +38,21 @@ glob(path.join(contents, "**/*.js"), {
         // prefix가 배열일 경우 모든 케이스에 대해서 추출
         if (prefix instanceof Array) {
             prefix.map((tr) => {
-                const expTrcode = new RegExp(`"${tr}[0-9]*"`, "gi");
-                const trcodes = file.match(expTrcode) || [];
+                var expTrcode = null;
+                var trcodes = null;
+
+                switch (parserType) {
+                    case "1": {
+                        expTrcode = new RegExp(`_sTrcode: "${tr}[0-9]*"`, "gi");
+                        trcodes = file.match(expTrcode) || [];
+                        break;
+                    }
+                    case "2": {
+                        expTrcode = new RegExp(`// ${tr}[0-9]* :: `, "gi");
+                        trcodes = file.match(expTrcode) || [];
+                        break;
+                    }
+                }
 
                 matchTrcodes = [ ...matchTrcodes, ...trcodes ];
 
@@ -46,8 +60,21 @@ glob(path.join(contents, "**/*.js"), {
             });
         }
         else {
-            const expTrcode = new RegExp(`"${prefix}[0-9]*"`, "gi");
-            const trcodes = file.match(expTrcode) || [];
+            var expTrcode = null;
+            var trcodes = null;
+
+            switch (parserType) {
+                case "1": {
+                    expTrcode = new RegExp(`"${prefix}[0-9]*"`, "gi");
+                    trcodes = file.match(expTrcode) || [];
+                    break;
+                }
+                case "2": {
+                    expTrcode = new RegExp(`// ${prefix}[0-9]* :: `, "gi");
+                    trcodes = file.match(expTrcode) || [];
+                    break;
+                }
+            }
 
             matchTrcodes = [ ...matchTrcodes, ...trcodes ];
         }
@@ -56,6 +83,17 @@ glob(path.join(contents, "**/*.js"), {
         matchTrcodes = [ ...new Set(matchTrcodes) ];
         // 정렬
         matchTrcodes.sort();
+        // 타입에 따른 부가내용 제거
+        matchTrcodes = matchTrcodes.map((trcode) => {
+            switch (parserType) {
+                case "1": {
+                    return trcode.replace(/_sTrcode: "/gi, "").replace(/"/gi, "");
+                }
+                case "2": {
+                    return trcode.replace(/\/\/ /gi, "").replace(/ :: /gi, "");
+                }
+            }
+        });
 
         /**
          * 추출 정보를 가공하여 변수에 입력
@@ -63,7 +101,7 @@ glob(path.join(contents, "**/*.js"), {
         fileInfoList.push({
             page: fileName.replace(".js", ""),
             title: matchTitle[0].replace("@title", "").trim(),
-            trcodes: matchTrcodes.map((trcode) => trcode.replace(/"/gi, ""))
+            trcodes: matchTrcodes
         });
     });
 
